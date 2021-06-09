@@ -5,13 +5,12 @@ public class Ass_1
 {
     public static void main(String[] args)
     {
-    	//accepting input
          Scanner sc=new Scanner(System.in);
          char ch;
          int asc;
          System.out.print("Enter a charachter:");
          ch=sc.next().charAt(0);
-         asc=(int)ch;
+         asc=ch;
          System.out.print("Ascii value of "+ch+" is: "+asc);
     }
 }
