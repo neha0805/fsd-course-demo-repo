@@ -8,9 +8,12 @@ public class Ass_5 {
 		 Scanner sc=new Scanner(System.in);
          char ch;
          int num;
+         
          System.out.print("Enter:");
          ch=sc.next().charAt(0);
+         
          num=ch-'0';
+         
          if(Character.isDigit(ch))
         	 System.out.print("Integer value is: "+num);
          else
