@@ -5,6 +5,7 @@ public class Ass_1
 {
     public static void main(String[] args)
     {
+    	//accepting input
          Scanner sc=new Scanner(System.in);
          char ch;
          int asc;
